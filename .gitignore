@@ -1,0 +1,21 @@
+
+# Generated reports
+reports/*
+
+# Keep the reports directory in the project
+!reports/.gitkeep
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Python cache (if added in future)
+__pycache__/
+*.pyc
+
